@@ -10,8 +10,8 @@ print-page-number = ##f
 }
 
 
-%\include "./Pieces/I.ly"
-%\include "./Pieces/II.ly"
+\include "./Pieces/I.ly"
+\include "./Pieces/II.ly"
 \include "./Pieces/III.ly"
 
 }

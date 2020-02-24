@@ -10,7 +10,7 @@
       \relative c' {
 
         % intro
-      	\tempo 4 = 144 - 158
+      	\tempo 4 = 168
         << {r1} \\ {e8 \pp b e b e b e b} >> \bar "|"
 
 	% Aa-1
@@ -758,7 +758,7 @@
   >>
 
   \header {
-    piece = "III. Allegro, senza rubato"
+    piece = "III. Presto, senza rubato"
   }
 
 \layout { }

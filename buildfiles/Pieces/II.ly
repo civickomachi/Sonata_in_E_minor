@@ -5,6 +5,7 @@
     \new Staff = "up" {
       \clef treble
       \key d \major
+      \mark "Adagio"
 
       \relative c' {
 
@@ -167,7 +168,7 @@
 	gis,16 [fis' e dis] e [fis g cis,\)] ais\( [gis' fis cisis] \bar "|"
 	e16 [dis ais b] dis [fis b fis\)] eis\( [dis' cis gis] \bar "|"
 	b16 [ais fis gis] ais [fis cis ais\)] cis\( [ais gis e] \bar "|"
-	gis16 \> [fis dis \clef bass b] fis [dis b fis\) \! ] \clef treble 
+	gis16 \> [fis dis \clef bass \change Staff = "down" b] fis [dis b fis\)] \! \change Staff = "up" \clef treble
 
 	<< { fis''8\( \pp [fis] } \\ { a,8 [a] } >> \bar "|"
 	<< { fis'8 e16 dis e8\) r8 b'8\( [b] } \\ { b,4. r8 <e cis>8 [<e cis>] } >> \bar "|"
@@ -338,7 +339,7 @@
 		% Main'
 
 		fis,8 <a' d,>4 <a d,>8 cis,, [<gis'' cis,>] \bar "|"
-		fis,8 <a' cis,>4 <a cis,>8 b,8 [<g' e>] \bar "|"
+		fis,8 <a' cis,>4 <a cis,>8 g,8 [<a' e>] \bar "|"
 		fis,8 <a' d,>4 <a d,>8 dis,,8 [<fis' b,>] \bar "|"
 		e,8 <e' b>4 <e b>8 a,8 [<g' e>] \bar "|"
 		ais,8 [<fis' cis>] b,16 [fis' d b] e,16 \sustainOn [c' g e] \bar "|"
@@ -423,7 +424,7 @@
   >>
 
   \header {
-    piece = "II. Adagio"
+    piece = "II. Calmly, with tenderness"
   }
 
 \layout { }

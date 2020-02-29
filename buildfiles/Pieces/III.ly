@@ -6,6 +6,7 @@
       \clef treble
       \key e \minor
       \time 4/4
+      \mark "Presto, senza rubato"
 
       \relative c' {
 
@@ -15,7 +16,7 @@
 
 	% Aa-1
 	
-	<< {b'2 a8 [g e g]} \\ {e8 b e b e b e b} >> \bar "|"
+	<< {b'2\( a8 [g e g]} \\ {e8 b e b e b e b} >> \bar "|"
 	<< {b'2 a8 [g e g]} \\ {e8 c e c e c e c} >> \bar "|"
 	<< {a'2 g8 [fis d fis]} \\ {d8 a d a d a d a} >> \bar "|"
 	<< {d'2 c8 [b a g]} \\ {r8 b,8 fis' b, fis' b, fis' b,} >> \bar "|"
@@ -23,9 +24,9 @@
 	<< {fis'2 e8 [fis g a]} \\ {r8 g,8 c g c g c g} >> \bar "|"
 	<< {b'4. e,4. a4} \\ {r8 e8 c e c e c e} >> \bar "|"
 	<< {fis2. e4} \\ {r8 b8 e b e b e b} >> \bar "|"
-	<< {dis4 dis e fis} \\ {dis8 b dis b e b fis' b,} >> \bar "|"
+	<< {dis4 dis e fis\) } \\ {dis8 b dis b e b fis' b,} >> \bar "|"
 
-	<< {b'2 a8 [g e g]} \\ {g8 b, e b e b e b} >> \bar "|"
+	<< {b'2\( a8 [g e g]} \\ {g8 b, e b e b e b} >> \bar "|"
 	<< {b'2 a8 [g e g]} \\ {e8 c e c e c e c} >> \bar "|"
 	<< {a'2 g8 [fis d fis]} \\ {d8 a d a d a d a} >> \bar "|"
 	<< {d'2 c8 [b a g]} \\ {r8 b,8 fis' b, fis' b, fis' b,} >> \bar "|"
@@ -33,32 +34,32 @@
 	<< {fis'2 e8 [fis g a]} \\ {r8 g,8 c g c g c g} >> \bar "|"
 	<< {b'4. e,4. a4} \\ {r8 e8 c e c e c e} >> \bar "|"
 	<< {fis2. e4} \\ {r8 b8 e b e b e b} >> \bar "|"
-	<< {dis4 dis e fis} \\ {dis8 b dis b e b fis' b,} >> \bar "|"
+	<< {dis4 dis e fis\) } \\ {dis8 b dis b e b fis' b,} >> \bar "|"
 
 
 	% Ab-1
 
-	<< {b'2. e4} \\ {g,8 \p e g e g e g e} >> \bar "|"
+	<< {b'2.\( e4} \\ {g,8 \p e g e g e g e} >> \bar "|"
 	<< {e'4. d c4} \\ {g8 e g e g e g e} >> \bar "|"
 	<< {b'4. a g4} \\ {g8 d g d d b d b} >> \bar "|"
 	<< {fis'2. g8 fis} \\ {d8 a d a d a d a} >> \bar "|"
 
 	<< {e'4. fis g4} \\ {c,8 g c g c g c g} >> \bar "|"
 	<< {d'2. d4} \\ {b8 g b g b g b g} >> \bar "|"
-	<fis' d>1 \bar "|"
+	<< { <fis' d>1\) } \\ { s1 } >> \bar "|"
 	r1 \bar "|"
 
-	r2 <b' e, b>4 \f <e b e,> \bar "|"
+	r2 <b' e, b>4\( \f <e b e,> \bar "|"
 	<e c e,>4. <d b d,> <c a c,>4 \bar "|"
 	<b g d b>4. <a d, a> <g d g,>4 \bar "|"
-	<fis d fis,>2. <g g,>8 [<fis fis,>] \bar "|"
+	<fis d fis,>2 r4 <g g,>8 [<fis fis,>] \bar "|"
 
 	<e c e,>4. <fis d fis,> <g e g,>4 \bar "|"
-	<d b g d>2. <d d,>4 \bar "|"
+	<d b g d>2 r4 <d d,>4 \bar "|"
 	<d bes f>4. \cresc <e bes> <f bes,>4 \bar "|"
 	<g c, a>4. <f c a> <g c, a>4 \bar "|"
 
-	<a e cis a>1 \ff \bar "|"
+	<a e cis a>1\) \ff \bar "|"
 	s1 \bar "|"
 
 	r4 \clef bass <fis,, d b>8 ^\p [\change Staff = "down" <fis, b,>] \change Staff = "up" <fis' d b>8 [\change Staff = "down" <fis, b,>] \change Staff = "up" <fis' d b>16 [\change Staff = "down" <fis, b,> \change Staff = "up" <fis' d b>8] \bar "|"
@@ -72,27 +73,27 @@
 
 	% Aa-1'
 
-	<fis b,>2 e8 [d b d] \bar "|"
+	<fis b,>2\( e8 [d b d] \bar "|"
 	<fis b,>2 e8 [d b d] \bar "|"
 	<e a,>2 d8 [cis a cis] \bar "|"
 	<a' cis,>2 g8 [fis e d] \bar "|"
 	<cis g>2 b8 [cis d e] \bar "|"
 	<fis d>4. <b, g> e4 \bar "|"
 	<cis b fis>2. <b fis>4 \bar "|"
-	<ais fis>4 \< <ais fis> <b gis> <cis ais> \bar "|"
+	<ais fis>4 \< <ais fis> <b gis> <cis ais>\) \bar "|"
 
-	<fis b,>2 \mf e8 [d b d] \bar "|"
+	<fis b,>2\( \mf e8 [d b d] \bar "|"
 	<fis cis>2 e8 [d b d] \bar "|"
 	<e a,>2 d8 [cis a cis] \bar "|"
 	<a' d,>2 g8 [fis e d] \bar "|"
 	<cis g>2 b8 [cis d e] \bar "|"
 	<cis gis>2 b8 [cis d e] \bar "|"
 	<cis ais>2~ <cis ais>8 [<d b> <cis ais> <d b>] \bar "|"
-	<cis ais>4 \< <fis cis> <ais fis> <cis ais> \bar "|"
+	<cis ais>4 \< <fis cis> <ais fis> <cis ais>\) \bar "|"
 
 	% B-1
 
-	r4 \f <d g,>8 [cis] <d a> [b cis d] \bar "|"
+	r4 \f <d g,>8\( [cis] <d a> [b cis d] \bar "|"
 	cis4 a <b fis> d,8 [e] \bar "|"
 	<fis b,>4 fis8 [a] <g cis,> [fis e fis] \bar "|"
 	<d b>4 <e cis> <fis d>2 \bar "|"
@@ -100,9 +101,9 @@
 	r4 <g d>8 [b] <a cis,> [e fis g] \bar "|"
 	<fis ais,>4 cis <d b> e8 [fis] \bar "|"
 	<g b,>4 fis8 [g] fis [ais b cis] \bar "|"
-	<cis fis,>4. d16 [cis] <b fis dis>2 \bar "|"
+	<cis fis,>4. d16 [cis] <b fis dis>2\) \bar "|"
 
-	r4 <d g,>8 [cis] <d a> [b cis d] \bar "|"
+	r4 <d g,>8\( [cis] <d a> [b cis d] \bar "|"
 	<cis fis,>4 a <b fis> d,8 [e] \bar "|"
 	<fis b,>4 fis8 [a] <g cis,> [fis e fis] \bar "|"
 	<d b>4 <e cis> <fis d>2 \bar "|"
@@ -112,8 +113,8 @@
 	<e c g>2 \cresc \tuplet 3/2 {e4 fis g} \bar "|"
 	<a e cis>2 e4 g \bar "|"
 
-	<fis cis ais>1 \ff \bar "|"
-	r2 gis,8-\markup { \italic sub. \dynamic mp } [ais b cis] \bar "||"
+	<fis cis ais>1\) \ff \bar "|"
+	r2 gis,8-\markup { \italic sub. \dynamic mp }\( [ais b cis] \bar "||"
 
 	% C-1
 	\key gis \minor
@@ -121,31 +122,31 @@
 	<dis b gis>4 <dis b gis> <dis gis,>8 [cis b cis] \bar "|"
 	<cis ais fis>4 <fis ais, fis> <dis b fis> r4 \bar "|"
 	<b gis>4 <b gis> <b gis>8 [cis dis cis] \bar "|"
-	<cis fis,>4 <b fis>8 [ais] <gis dis>4 gis16 [ais b cis] \bar "|"
+	<cis fis,>4 <b fis>8 [ais] <gis dis>4\) gis16\( [ais b cis] \bar "|"
 
 	<dis b gis>4 <dis b gis> <dis gis,>8 [cis b cis] \bar "|"
 	<cis ais fis>4 <fis ais, fis> <dis b fis> r4 \bar "|"
 	<b gis>4 <b gis> <b gis>8 [cis dis cis] \bar "|"
-	<cis fis,>4 <b fis>8 [ais] <gis dis>4 gis8 [b] \bar "|"
+	<cis fis,>4 <b fis>8 [ais] <gis dis>4\) gis8\( [b] \bar "|"
 
 	<dis b>8 [gis, <dis' b> gis,] <dis' b> [<cis ais> <b gis> <cis ais>] \bar "|"
 	<cis ais>8 [fis, <fis' ais,> fis,] <dis' b> [fis, <cis' ais> fis,] \bar "|"
 	<b gis>4 <b gis> <b gis>8 [<cis ais> <dis b> <cis ais>] \bar "|"
-	<cis ais>4 <b gis>8 [<ais fis>] <gis dis>4 gis16 [ais b cis] \bar "|"
+	<cis ais>4 <b gis>8 [<ais fis>] <gis dis>4\) gis16\( [ais b cis] \bar "|"
 
 	<dis b gis>4 <dis b gis> <dis b gis>8 [cis b cis] \bar "|"
 	<cis ais fis>4 <fis ais, fis> <dis b fis> r4 \bar "|"
 	<b gis>4 <b gis> <b gis>8 [<cis ais> <dis b> <cis ais>] \bar "|"
-	<cis ais>4 <b gis>8 [<ais fis>] <gis dis>4 r4 \bar "|"
+	<cis ais>4 <b gis>8 [<ais fis>] <gis dis>4\) r4 \bar "|"
 
-	<b gis>2 \tuplet 3/2 { <b gis>4 <cis ais> <dis b> } \bar "|"
+	<b gis>2\( \tuplet 3/2 { <b gis>4 <cis ais> <dis b> } \bar "|"
 	<cis ais>2 <cis ais>4 <ais fis> \bar "|"
 	<cis ais fis>2~ <cis ais fis>8 b4 ais8 \bar "|"
 	<b gis dis>2. gis8 [ais] \bar "|"
 
 	<b gis e>2 \tuplet 3/2 { <b gis>4 <cis ais> <dis b> } \bar "|"
 	<cis ais fis>4. <b gis> <cis ais>4 \bar "|"
-	<dis b fis>1 \dim \bar "|"
+	<dis b fis>1\) \dim \bar "|"
 	s1 \bar "||"
 	
 
@@ -153,7 +154,7 @@
 
 	\key e \minor
 
-	<b' g>2 \p a8 [g e g] \bar "|"
+	<b' g>2\( \p a8 [g e g] \bar "|"
 	<b e,>2 a8 [g e g] \bar "|"
 	<a d,>2 g8 [fis d fis] \bar "|"
 	<d' a>2 c8 [b a g] \bar "|"
@@ -161,9 +162,9 @@
 	fis2 e8 [fis g a] \bar "|"
 	<b e, c>4. e, <a c,>4 \bar "|"
 	<fis e b>2. <e b>4 \bar "|"
-	<dis b>4 <dis b> <e cis> <fis dis> \bar "|"
+	<dis b>4 <dis b> <e cis> <fis dis>\) \bar "|"
 
-	<b g e>2 a8 [g e g] \bar "|"
+	<b g e>2\( a8 [g e g] \bar "|"
 	<b fis d>2 a8 [g e g] \bar "|"
 	<a fis d>2 g8 [fis d fis] \bar "|"
 	<d' g,>2 c8 [b a g] \bar "|"
@@ -178,38 +179,38 @@
 
 	\key d \minor
 
-	<a f d>4 \f \clef bass <a, f>4-\markup { \italic sub. \dynamic p } <a f>8 [<g e> <f d> <g e>] \bar "|"
+	<a f d>4\) \f \clef bass <a, f>4-\markup { \italic sub. \dynamic p } \( <a f>8 [<g e> <f d> <g e>] \bar "|"
 	<g e>4 c <a f> r4 \bar "|"
 	f4 f f8 [g a g] \bar "|"
-	g4 f8 [e] d4 d8 [f] \bar "|"
+	g4 f8 [e] d4\) d8\( [f] \bar "|"
 
 	a4 a a8 [g f g] \bar "|"
 	g4 c a r4 \bar "|"
 	f4 f f8 [g a g] \bar "|"
-	g4 f8 [e] d4 r4 \bar "|"
+	g4 f8 [e] d4\) r4 \bar "|"
 
-	f4. \cresc g a4 \bar "|"
+	f4.\( \cresc g a4 \bar "|"
 	g4. f g4 \bar "|"
 	<aes f>4. <bes g> <c aes>4 \bar "|"
-	<bes g>4. <aes f> <bes g>4 \bar "|"
+	<bes g>4. <aes f> <bes g>4\) \bar "|"
 
 	\key f \minor
 
-	<c aes f>4 \f <c aes f> <c aes f>8 [<bes g> <aes f> <bes g>] \bar "|"
+	<c aes f>4\( \f <c aes f> <c aes f>8 [<bes g> <aes f> <bes g>] \bar "|"
 	<bes g>4 es <c aes> r4 \bar "|"
 	<aes f>4 <aes f> <aes f>8 [<bes g> <c aes> <bes g>] \bar "|"
-	<bes g>4 <aes f>8 [g] f4 f16 [g aes bes] \bar "|"
+	<bes g>4 <aes f>8 [g] f4\) f16\( [g aes bes] \bar "|"
 	
 	<c aes f>4 <c aes f> <c aes f>8 [<bes g> <aes f> <bes g>] \bar "|"
 	<bes g>4 es <c aes> r4 \bar "|"
 	<aes f>4 <aes f> \tuplet 3/2 { <aes f>4 <bes g> <c aes> } \bar "|"
-	<bes g>4 es <f des aes> \clef treble f8 [g] \bar "|"
+	<bes g>4 es <f des aes>\) \clef treble f8\( [g] \bar "|"
 
 	<aes f>4 <aes f> <aes f>8 [<bes g> <c aes> <bes g>] \bar "|"
-	<bes g>4 es <c aes> r4 \bar "|"
-	<aes fes ces>4. es' ces4 \bar "|"
-	<bes ges des>8 [ces bes] <aes f des>4. g8 [aes] \bar "|"
-	<bes g e>8 [c des] <c g e> r8 g8 [aes bes] \bar "|"
+	<bes g>4 es <c aes>\) r4 \bar "|"
+	<aes fes ces>4.\( es' ces4 \bar "|"
+	<bes ges des>8 [ces bes] <aes f des>4.\) g8\( [aes] \bar "|"
+	<bes g e>8 [c des] <c g e>\) r8 g8\( [aes bes] \bar "|"
 
 
 	% development
@@ -222,26 +223,26 @@
 	<c aes f>4 f  <g bes,>8 [f es des] \bar "|"
 	<c g>4 <bes' g c,> <aes f> <bes g>8 [<c aes>] \bar "|"
 	<des aes f>4 <aes f> \tuplet 3/2 { <g es>4 <aes f> <g es> } \bar "|"
-	<g c,>4. \< f8 <f c a>4 r4 \bar "|"
+	<g c,>4. \< f8 <f c a>4\) r4 \bar "|"
 
-	<aes f des>4 \ff f8 [g] <aes es> [g f g] \bar "|"
+	<aes f des>4\( \ff f8 [g] <aes es> [g f g] \bar "|"
 	<es c>4. <es c>8 << { f2 } \\ { a,8 [es' des c] } >> \bar "|"
 	<< { r4 des8 [f] e [f g bes] } \\ { bes,2 c } >> \bar "|"
-	<< { bes'4 aes8 [bes] } \\ { f2 } >> <c' es,>4 \> r4 \bar "|"
+	<< { bes'4 aes8 [bes] } \\ { f2 } >> <c' es,>4\) \> r4 \bar "|"
 
-	r4 \p f,,8 \cresc [aes] g [aes bes es,] \bar "|"
-	r4 c'8 [g] bes [aes bes c] \bar "|"
-	r4 es8 [bes] des [c bes aes] \bar "|"
+	r4 \p f,,8\( \cresc [aes] g [aes bes es,\)] \bar "|"
+	r4 c'8\( [g] bes [aes bes c\)] \bar "|"
+	r4 es8\( [bes] des [c bes aes\)] \bar "|"
 
-	<c es,>4. \fp aes4 bes8 c4 \bar "|"
+	<c es,>4.\( \fp aes4 bes8 c4 \bar "|"
 	<es aes, f>4. des c4 \bar "|"
 	<bes g es>4. <aes f> <bes g>4 \bar "|"
-	<c aes f>2 r4 aes8 [bes] \bar "|"
+	<c aes f>2\) r4 aes8\( [bes] \bar "|"
 
 	<c aes es>4. aes4 bes8 c4 \bar "|"
 	<es aes, f>4. des c4 \bar "|"
 	<bes g es>4. <aes f> <bes g>4 \bar "|"
-	<c aes es>1 s1 \bar "||"
+	<c aes es>1\) s1 \bar "||"
 
 
 	% Ab-2
@@ -271,7 +272,7 @@
 	<< { r2 gis'4 cis } \\ { cis,8 [gis cis gis] cis [gis cis gis] } >> \bar "|"
 	cis8 [gis cis gis] cis [gis cis gis] \bar "|"
 
-	r2 gis'4 cis \bar "|"
+	r2 gis'4\( cis \bar "|"
 	cis4. b a4 \bar "|"
 	gis4. fis e4 \bar "|"
 	dis2 r4 e8 [dis] \bar "|"
@@ -279,16 +280,16 @@
 	cis4. dis e4 \bar "|"
 	b2 r4 b4 \bar "|"
 	dis1~ \< \bar "|"
-	dis1 \bar "|"
+	dis1\) \bar "|"
 
-	r2 \ff <gis cis, gis>4 <cis gis cis,> \bar "|"
+	r2 \ff <gis cis, gis>4\( <cis gis cis,> \bar "|"
 	<cis a cis,>4. <b gis b,> <a fis a,>4 \bar "|"
 	<gis e gis,>4. <fis dis fis,> <e cis e,>4 \bar "|"
 	<dis b dis,>2 r4 <e e,>8 [<dis dis,>] \bar "|"
 
 	<cis a cis,>4. <dis b dis,> <e cis e,>4 \bar "|"
 	<b gis e b>2 r4 <b b,>4 \bar "|"
-	<dis b fis dis>1 \dim \bar "|"
+	<dis b fis dis>1\) \dim \bar "|"
 
 	s1 \bar "|"
 	s1 \bar "|"
@@ -299,7 +300,7 @@
 	s1 \pp \bar "|"
 	s1 \bar "|"
 
-	s2 r4 e,16 \f [fis g a] \bar "||"
+	s2 r4 e,16\( \f [fis g a] \bar "||"
 
 
 	% C-3
@@ -309,58 +310,58 @@
 	<b g e>4 <b g e> <b g e>8 [<a fis> <g e> <a fis>] \bar "|"
 	<a fis>4 <d d,> <b g> r4 \bar "|"
 	<g e>4 <g e> <g e>8 [<a fis> <b g> <a fis>] \bar "|"
-	<a fis>4 <g e>8 [<fis d>] <e b>4 e16 \f [fis g a] \bar "|"
+	<a fis>4 <g e>8 [<fis d>] <e b>4\) e16\( [fis g a] \bar "|"
 
 	<b g e>4 <b g e> <b g e>8 [<a fis> <g e> <a fis>] \bar "|"
 	<a fis>4 <d d,> <b g> r4 \bar "|"
 	<g e>4 <g e> <g e>8 [<a fis> <b g> <a fis>] \bar "|"
-	<a fis>4 <d d,> <e e,> e8 [g] \bar "|"
+	<a fis>4 <d d,> <e e,>\) e8\( [g] \bar "|"
 
 	<b g e>4 <b g e> <b g e>8 [<a fis> <g e> <a fis>] \bar "|"
 	<a fis>4 <d d,> <b g> r4 \bar "|"
 	<g e>4 <g e> <g e>8 [<a fis> <b g> <a fis>] \bar "|"
-	<a fis>4 <g e>8 [<fis d>] <e b>4 e16 \f [fis g a] \bar "|"
+	<a fis>4 <g e>8 [<fis d>] <e b>4\) e16\( [fis g a] \bar "|"
 
 	<b g e>4 <b g e> <b g e>8 [<a fis> <g e> <a fis>] \bar "|"
 	<a fis>4 <d d,> <b g> r4 \bar "|"
 	<g e>4 <g e> <g e>8 [<a fis> <b g> <a fis>] \bar "|"
-	<a fis>4 <g e>8 [<fis d>] <e b>4 r4 \bar "|"
+	<a fis>4 <g e>8 [<fis d>] <e b>4\) r4 \bar "|"
 
-	<g, e>2 \tuplet 3/2 { <g e>4 <a fis> <b g> } \bar "|"
+	<g, e>2\( \tuplet 3/2 { <g e>4 <a fis> <b g> } \bar "|"
 	<a fis>4. <fis d> <a fis>4 \bar "|"
 	<a e>2~ <a e>8 <gis e>4 <a e>8 \bar "|"
-	<b gis e>2 r4 e16 [fis g a] \bar "|"
+	<b gis e>2\) r4 e16\( [fis g a] \bar "|"
 
 	<b g e>2 <e, c>4 <b' g> \bar "|"
 	<a fis d>2 <d d,>4 <a a,> \bar "|"
-	<b g e b>2. \tuplet 3/2 { b'8 [fis e] } \bar "|"
+	<b g e b>2.\) \tuplet 3/2 { b'8 [fis e] } \bar "|"
 	\tuplet 3/2 { b8 [fis e] } \tuplet 3/2 { b8 [fis e] } \clef bass \tuplet 3/2 { b8 [fis e] } b4 \bar "|"
 
 
 	% Coda
 
-	\clef treble <b'' g e>2 \p a8 [g e g] \bar "|"
-	<b e, c>1 \bar "|"
+	\clef treble <b'' g e>2\( \p a8 [g e g] \bar "|"
+	<b e, c>1\) \bar "|"
 	s1 \bar "|"
 
-	<b' g e b>2\arpeggio a8 [g e g] \bar "|"
-	<b e, cis>1 \bar "|"
+	<b' g e b>2\arpeggio\( a8 [g e g] \bar "|"
+	<b e, cis>1\) \bar "|"
 	s1 \bar "|"
 
-	<b, f c>2 \pp <a e>8 \cresc [g e g] \bar "|"
+	<b, f c>2\( \pp <a e>8 \cresc [g e g] \bar "|"
 	<b fis d>2 <a e>8 [g e g] \bar "|"
 	<a d,>2 g8 [fis e fis] \bar "|"
 	<a d,>2 <g dis>8 [fis e fis] \bar "|"
 
-	<g e b>2 \f <b g>4 <e e,> \bar "|"
+	<g e b>2\) \f <b g>4\( <e e,> \bar "|"
 	<e c g>4. <d fis,> <c a>4 \bar "|"
 	r2 <b g>4 <b g> \bar "|"
 	<b g e>4 <a fis>8 [<g e>] <a dis,>4 <g e>8 [<a fis>] \bar "|"
 
-	<b g e>2 <b g>4 <e e,> \bar "|"
-	<e c g>4. <d fis,> <c a>4 \bar "|"
-	r2 <b g>4 <b g> \bar "|"
-	<b g e>4 <a fis>8 [<g e>] << { fis4 g } \\ { dis2 } >> \bar "|"
+	<b g e>2\) << { <b g>4\( <e e,> } \\ { s2 } >> \bar "|"
+	<< { \stemDown <e c g>4. \stemNeutral <d fis,> \stemDown <c a>4 \stemNeutral } \\ { s1 } >> \bar "|"
+	<< { r2 <b g>4 <b g> } \\ { s1 } >> \bar "|"
+	<< { <b g e>4 <a fis>8 [<g e>] fis4 g\) } \\ { s2 dis2 } >> \bar "|"
 
 	r8 e8^\markup { \italic non \italic legato } [g a] b [a b d] \bar "|"
 	<e c g>4 <e c g> << { dis4 cis8 [dis] } \\ { <b fis>2 } >> \bar "|"
@@ -630,25 +631,25 @@
 	r1 \sustainOn \bar "|"
 	r1 \bar "|"
 
-	cis,,1 \bar "|"
+	cis,,1\( \bar "|"
 	a1 \bar "|"
 	b1 \bar "|"
-	e2 dis \bar "|"
+	e2 dis\) \bar "|"
 	
-	cis1 \bar "|"
+	cis1\( \bar "|"
 	a1 \bar "|"
 	b1 \bar "|"
-	e2 dis \bar "|"
+	e2 dis\) \bar "|"
 
-	cis1 \bar "|"
+	cis1\( \bar "|"
 	a1 \bar "|"
 	b1 \bar "|"
-	e2 dis \bar "|"
+	e2 dis\) \bar "|"
 
-	cis1 \bar "|"
+	cis1\( \bar "|"
 	a1 \bar "|"
 	b1 \bar "|"
-	e2 dis \bar "|"
+	e2 dis\) \bar "|"
 
 	\clef treble << { cis'8 [gis cis gis] cis [gis cis gis] } \\ { cis,1 \sustainOn } >> \bar "|"
 	<< { a'8 [e a e] a [e a e] } \\ { a,1 \sustainOn} >> \bar "|"
@@ -717,12 +718,12 @@
 	% Coda
 
 	e8 \sustainOn [b' e g] r2 \bar "|"
-	c,,8 \sustainOn [g' c d] e [g c \change Staff = "up" d] \bar "|"
-	e8 [g c d] <g e>2 \bar "|"
+	c,,8\( \sustainOn [g' c d] e [g c \change Staff = "up" d] \bar "|"
+	e8 [g c d] <g e>2\) \bar "|"
 
 	\change Staff = "down" e,,8 \sustainOn [b' e g] r2 \bar "|"
-	a,,8 \sustainOn [e' a b] cis [\change Staff = "up" e a b] \bar "|"
-	cis8 [e a b] <e cis>2 \bar "|"
+	a,,8\( \sustainOn [e' a b] cis [\change Staff = "up" e a b] \bar "|"
+	cis8 [e a b] <e cis>2\) \bar "|"
 
 	\change Staff = "down" <f,,, f,>2_\markup { \italic con \italic ped. } <e e,> \bar "|"
 	<d d,>2 <c c,> \bar "|"
@@ -758,10 +759,11 @@
   >>
 
   \header {
-    piece = "III. Presto, senza rubato"
+    piece = "III. In a rigorously accurate tempo and dynamics, but passionately"
   }
 
 \layout { }
 \midi { }
 
 }
+

@@ -370,7 +370,7 @@
   >>
 
   \header {
-    piece = "I."
+    piece = "I. A monologue with restrained emotions ('Potsuri-potsuri-to-kataru-you-ni')"
   }
 
 \layout { }

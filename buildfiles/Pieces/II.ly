@@ -51,7 +51,7 @@
 		   e'2 cis4 \bar "|"
 		   d2~ d8 [e] \bar "|"
 		   cis2 d4~ \p \bar "|"
-		   d8 [cis16\( d] e4~\) e8 [fis] \bar "|"
+		   d8 [cis16\( d] e4~\) e8 [fis~] \bar "|"
 		   fis4 g \breathe } \\ {
 		   b,8\( [b] b [a16 g] a4\) \bar "|"
 		   a8\( [a] a [g16 a] b4~\) \bar "|"
@@ -153,8 +153,10 @@
 	<< { fis'8 [e16 dis] e4\) e8\( [e] } \\ { r16 <b gis>8 [gis16] b8\( [b] d [cis16 b] } >> \bar "|"
 	<< { e8 [d16 cis] d4\) } \\ { cis8\) b16\( [ais] b4\) } >>
 	<< { <c g>8 \< [<c g>] } \\ { s4 } >> \bar "|"
-	<< { <c g>8 \ff [g' fis <g e> <fis d> <e c>] \bar "|" s2 } \\ { s4. g'8 [fis <g e> \bar "|" <fis d> <e c> <d b> <c a>] } >> \breathe
+	\time 4/4
+	<< { <c g>8 \ff [g' fis <g e> <fis d> <e c> d c] \bar "|" s2 s4 } \\ { s4. s4 g''8 [fis <g e> \bar "|" <fis d> <e c> <d b> <c a>] r4 } >> \breathe
 	\clef bass <b, e,>8\( \pp [<b e,>] \bar "|"
+	\time 3/4
 	<cis fis, d>8 [b16 ais] b4\) \clef treble a''16-\markup { \italic legato }\( [c, dis a] \bar "|"
 
 	g16 [e g b] dis [e fis g\)] g\( [cis, e g,] \bar "|"
@@ -336,13 +338,15 @@
 		% Main'
 
 		fis,8 <a' d,>4 <a d,>8 cis,, [<gis'' cis,>] \bar "|"
-		fis,8 <a' cis,>4 <a cis,>8 fisis,8 [<b' gis>] \bar "|"
-		fis,8 <a' d,>4 <a d,>8 disis,,8 [<fis' b,>] \bar "|"
+		fis,8 <a' cis,>4 <a cis,>8 b,8 [<g' e>] \bar "|"
+		fis,8 <a' d,>4 <a d,>8 dis,,8 [<fis' b,>] \bar "|"
 		e,8 <e' b>4 <e b>8 a,8 [<g' e>] \bar "|"
 		ais,8 [<fis' cis>] b,16 [fis' d b] e,16 \sustainOn [c' g e] \bar "|"
 
-		e,2.~ \bar "|"
-		e2 <cis'' fis,>8 \sustainOff [<cis fis,>] \bar "|"
+		\time 4/4
+		e,1~ \bar "|"
+		e2 r4 <cis'' fis,>8 \sustainOff [<cis fis,>] \bar "|"
+		\time 3/4
 		b,4 r16 b'16 [fis d] b4 \bar "|"
 
 		e2 cis4 \bar "|"

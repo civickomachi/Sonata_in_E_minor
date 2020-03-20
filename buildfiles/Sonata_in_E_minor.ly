@@ -1,8 +1,9 @@
 \version "2.18.2"
 \book{
 \header {
-  title = "Sonatina in E minor"
+  title = "Sonata in E minor for the Piano"
   composer = "Naoya Ozawa"
+  subtitle = "(2018.03.19 - 2020.02.29)"
 }
 
 \paper {
